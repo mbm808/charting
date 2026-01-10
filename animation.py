@@ -26,4 +26,4 @@ def stocks(st="2020-01-01", en = "2020-12-31", tickers=["SPY", "GLD"], milliseco
     anim = FuncAnimation(fig, animate, frames=frame_count, interval=milliseconds, repeat=True)
     plt.show()
 
-stocks(tickers=["SPY", "QQQ", "DIA", "^VIX"], st="1999-01-01", en="2009-04-01", milliseconds=100, period="1mo")
+stocks(tickers=["SPY", "QQQ", "DIA"], st="2000-01-01", en="2003-12-31", milliseconds=100, period="1d")
